@@ -1,0 +1,40 @@
+# Robot-side ImageWAM client configuration.
+#
+# This file is intentionally the only machine-specific setup point. Relative
+# paths are resolved from the repository root, so the checkout can be moved.
+
+policy:
+  host: 127.0.0.1
+  port: 29551
+
+runtime:
+  fps: 30.0
+  chunk_size: 32
+  discard_steps: 0
+  post_chunk_sleep: 1.5
+  history_offsets: [0, 10, 30]
+  crop_percent: [100, 100, 100]
+  display: false
+  # Set to null to disable recording. A relative path lives under this repo.
+  record_head: records/live_infer.mp4
+
+startup:
+  # Required on a robot: replay directory/state.npz or mean-state .npy.
+  # Keep both equal for the normal startup sequence. They remain separate to
+  # preserve the currently tuned validation and reset behavior.
+  state_path: null
+  reset_state_path: null
+  wait_for_enter: true
+
+action:
+  arm_type: relative
+  hand_type: relative
+  # Which supervised hand head is executed. MANO is converted to q20 locally.
+  hand_source: mano
+
+tunnel:
+  ssh_target: baiduyun32
+  local_host: 127.0.0.1
+  local_port: 29551
+  remote_host: 127.0.0.1
+  remote_port: 29558

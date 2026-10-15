@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "action_chunk": {
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "array",
+        "minItems": 52,
+        "maxItems": 52,
+        "items": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "required": [
+    "action_chunk"
+  ],
+  "additionalProperties": false
+}

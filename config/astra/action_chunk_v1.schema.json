@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "astra.action_chunk.v1"
+      ]
+    },
+    "request_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "action",
+        "observe",
+        "stop",
+        "complete"
+      ]
+    },
+    "action_chunk": {
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "array",
+        "minItems": 52,
+        "maxItems": 52,
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "stop_kind": {
+      "type": "string",
+      "enum": [
+        "none",
+        "planning",
+        "collision_risk",
+        "observation_uncertainty",
+        "hardware_fault"
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "request_id",
+    "status",
+    "action_chunk",
+    "stop_kind",
+    "reason",
+    "evidence"
+  ],
+  "additionalProperties": false
+}

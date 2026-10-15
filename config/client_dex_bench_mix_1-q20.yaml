@@ -1,0 +1,36 @@
+# Unified mix client; select this profile via --task.
+policy:
+  host: 127.0.0.1
+  port: 19225
+  protocol: imagewam_standardized
+runtime:
+  fps: 30.0
+  chunk_size: 32
+  discard_steps: 0
+  inference_mode: sync-no-sleep
+  post_chunk_sleep: 1.5
+  camera_latency: 0.100
+  wrist_camera_latency: 0.094
+  history_offsets:
+  - 0
+  crop_percent:
+  - 100
+  - 100
+  - 100
+  display: false
+  record_head: null
+startup:
+  state_path: ops/dex_bench_tasks_mano/mix_openbottle_train_mean_initial_state.json
+  reset_state_path: ops/dex_bench_tasks_mano/mix_openbottle_train_mean_initial_state.json
+  wait_for_enter: true
+action:
+  arm_type: relative
+  hand_type: absolute
+  hand_source: q20
+tunnel:
+  ssh_target: bce_dev01
+  local_host: 127.0.0.1
+  local_port: 19225
+  remote_host: 127.0.0.1
+  remote_port: 18225
+instruction: Unscrew the bottle cap.

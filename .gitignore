@@ -1,0 +1,43 @@
+# Runtime sessions, observations, recordings and model response caches
+/outputs/
+/logs/
+/recordings/
+/data/reference_videos/
+*.log
+
+# Python bytecode, environments and tooling caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging output
+/build/
+/dist/
+*.egg-info/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+!.env.sample
+.secrets/
+
+# Editor and OS temporary files
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Keep source/configuration JSON, including config/astra/hand_poses_v11/,
+# eligible for version control. Do not ignore JSON or image files globally.

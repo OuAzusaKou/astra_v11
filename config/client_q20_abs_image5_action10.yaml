@@ -1,0 +1,33 @@
+# PickPlace Q20 variant: freeze image after step five; action completes ten steps.
+
+policy:
+  host: 127.0.0.1
+  port: 29553
+  expected_num_inference_steps: 10
+  expected_image_num_inference_steps: 5
+
+runtime:
+  fps: 30.0
+  chunk_size: 30
+  discard_steps: 0
+  history_offsets: [0, 10, 30]
+  crop_percent: [100, 100, 100]
+  display: false
+  record_head: records/live_infer_q20_abs_image5_action10.mp4
+
+startup:
+  state_path: null
+  reset_state_path: null
+  wait_for_enter: true
+
+action:
+  arm_type: relative
+  hand_type: absolute
+  hand_source: q20
+
+tunnel:
+  ssh_target: baiduyun32
+  local_host: 127.0.0.1
+  local_port: 29553
+  remote_host: 127.0.0.1
+  remote_port: 29564

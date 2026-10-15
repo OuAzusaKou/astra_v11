@@ -1,0 +1,33 @@
+# Long Horizon Bench 1 v2 L3 ImageWAM MANO evaluation profile.
+
+policy:
+  host: 127.0.0.1
+  port: 29660
+  expected_num_inference_steps: 10
+
+runtime:
+  fps: 30.0
+  chunk_size: 32
+  discard_steps: 0
+  post_chunk_sleep: 1.5
+  history_offsets: [0, 10, 30]
+  crop_percent: [100, 100, 100]
+  display: false
+  record_head: null
+
+startup:
+  state_path: null
+  reset_state_path: null
+  wait_for_enter: true
+
+action:
+  arm_type: relative
+  hand_type: relative
+  hand_source: mano
+
+tunnel:
+  ssh_target: bce_dev01
+  local_host: 127.0.0.1
+  local_port: 29660
+  remote_host: 127.0.0.1
+  remote_port: 29670

@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "host": "10.128.40.203",
+  "port": 29572,
+  "expected_checkpoint": "/mode2-7114/checkpoints/weights/step_100000.pt",
+  "toggle_key": "t"
+}

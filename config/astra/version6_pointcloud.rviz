@@ -1,0 +1,613 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+  Help Height: 40
+  Property Tree Widget:
+    Expanded:
+    - /Global Options1
+    - /Status1
+    Splitter Ratio: 0.5
+  Tree Height: 700
+Visualization Manager:
+  Class: ''
+  Displays:
+  - Alpha: 0.25
+    Cell Size: 0.10000000149011612
+    Class: rviz_default_plugins/Grid
+    Color: 160; 160; 164
+    Enabled: true
+    Line Style:
+      Line Width: 0.029999999329447746
+      Value: Lines
+    Name: Grid
+    Normal Cell Count: 0
+    Offset:
+      X: 0
+      Y: 0
+      Z: 0
+    Plane: XY
+    Plane Cell Count: 20
+    Reference Frame: <Fixed Frame>
+    Value: true
+  - Alpha: 0.4000000059604645
+    Class: rviz_default_plugins/RobotModel
+    Collision Enabled: false
+    Description File: ''
+    Description Source: Topic
+    Description Topic:
+      Depth: 5
+      Durability Policy: Transient Local
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /robot_description
+    Enabled: false
+    Links:
+      All Links Enabled: true
+      Expand Joint Details: false
+      Expand Link Details: false
+      Expand Tree: false
+      Link Tree Style: Links in Alphabetic Order
+      chest_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      head_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      head_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger1_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger1_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger1_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger1_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger1_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      left_hand_finger1_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger2_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger2_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger2_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger2_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger2_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      left_hand_finger2_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger3_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger3_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger3_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger3_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger3_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      left_hand_finger3_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger4_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger4_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger4_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger4_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger4_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      left_hand_finger4_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger5_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger5_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger5_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger5_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_finger5_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      left_hand_finger5_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_hand_palm_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_link5:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_link_ee:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      left_wrist_pitch_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      left_wrist_yaw_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      right_hand_finger1_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger1_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger1_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger1_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger1_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      right_hand_finger1_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger2_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger2_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger2_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger2_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger2_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      right_hand_finger2_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger3_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger3_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger3_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger3_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger3_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      right_hand_finger3_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger4_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger4_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger4_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger4_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger4_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      right_hand_finger4_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger5_link1:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger5_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger5_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger5_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_finger5_nail_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      right_hand_finger5_tip_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_hand_palm_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_link2:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_link3:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_link4:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_link5:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_link_ee:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+        Value: true
+      right_wrist_pitch_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+      right_wrist_yaw_link:
+        Alpha: 1
+        Show Axes: false
+        Show Trail: false
+    Mass Properties:
+      Inertia: false
+      Mass: false
+    Name: Leo arms and Wuji hands
+    TF Prefix: ''
+    Update Interval: 0
+    Value: false
+    Visual Enabled: true
+  - Alpha: 1
+    Autocompute Intensity Bounds: true
+    Autocompute Value Bounds:
+      Max Value: 10
+      Min Value: -10
+      Value: true
+    Axis: Z
+    Channel Name: intensity
+    Class: rviz_default_plugins/PointCloud2
+    Color: 255; 255; 255
+    Color Transformer: RGB8
+    Decay Time: 1.0
+    Enabled: true
+    Invert Rainbow: false
+    Max Color: 255; 255; 255
+    Max Intensity: 4096
+    Min Color: 0; 0; 0
+    Min Intensity: 0
+    Name: D435i measured surface
+    Position Transformer: XYZ
+    Selectable: true
+    Size (Pixels): 2
+    Size (m): 0.003000000026077032
+    Style: Points
+    Topic:
+      Depth: 1
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /leo/d435i/chest_points
+    Use Fixed Frame: true
+    Use rainbow: true
+    Value: true
+  - Class: rviz_default_plugins/Axes
+    Enabled: true
+    Length: 0.15000000596046448
+    Name: Chest origin
+    Radius: 0.003000000026077032
+    Reference Frame: chest_link
+    Value: true
+  - Class: rviz_default_plugins/PointCloud2
+    Name: Wuji model surface - cyan left magenta right
+    Enabled: true
+    Value: true
+    Topic:
+      Value: /leo/wuji/model_points
+      Depth: 1
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Filter size: 5
+    Style: Points
+    Size (Pixels): 2
+    Size (m): 0.002
+    Alpha: 1.0
+    Color Transformer: RGB8
+    Position Transformer: XYZ
+    Decay Time: 0.2
+    Selectable: true
+    Use Fixed Frame: true
+  - Class: rviz_default_plugins/PointCloud2
+    Name: V6 IMAGINED hands - orange (not robot)
+    Enabled: true
+    Value: true
+    Topic:
+      Value: /astra/imagination/hand_points
+      Depth: 1
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Filter size: 5
+    Style: Points
+    Size (Pixels): 2
+    Size (m): 0.002
+    Alpha: 1.0
+    Color Transformer: RGB8
+    Position Transformer: XYZ
+    Decay Time: 0
+    Selectable: true
+    Use Fixed Frame: true
+  - Class: rviz_default_plugins/Image
+    Enabled: true
+    Name: Projection top_XY
+    Topic:
+      Depth: 1
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Value: /astra/projections/top_XY
+    Transport Hint: raw
+    Queue Size: 1
+    Value: true
+  - Class: rviz_default_plugins/Image
+    Enabled: true
+    Name: Projection front_YZ
+    Topic:
+      Depth: 1
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Value: /astra/projections/front_YZ
+    Transport Hint: raw
+    Queue Size: 1
+    Value: true
+  - Class: rviz_default_plugins/Image
+    Enabled: true
+    Name: Projection side_XZ
+    Topic:
+      Depth: 1
+      Durability Policy: Volatile
+      History Policy: Keep Last
+      Reliability Policy: Best Effort
+      Value: /astra/projections/side_XZ
+    Transport Hint: raw
+    Queue Size: 1
+    Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 38; 42; 48
+    Fixed Frame: chest_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+  - Class: rviz_default_plugins/Interact
+    Hide Inactive Objects: true
+  - Class: rviz_default_plugins/MoveCamera
+  - Class: rviz_default_plugins/Select
+  - Class: rviz_default_plugins/FocusCamera
+  - Class: rviz_default_plugins/Measure
+    Line color: 128; 128; 0
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 0.9478918313980103
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.25
+        Y: 0
+        Z: -0.20000000298023224
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 1.0297962427139282
+      Target Frame: chest_link
+      Value: Orbit (rviz)
+      Yaw: 4.573185920715332
+    Saved: null
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 900
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002660000032afc0200000005fb000000100044006900730070006c006100790073010000003d00000116000000c900fffffffb0000001200530065006c0065006300740069006f006e0100000159000000870000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007301000001e6000000870000005c00fffffffb0000000a005600690065007700730100000273000000b5000000a400fffffffb0000000800540069006d0065010000032e000000390000003900ffffff000005780000032a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 2020
+  X: 66
+  Y: 60
